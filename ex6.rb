@@ -3,7 +3,7 @@ types_of_people = 10
 #defining the variable x to the string "There are #{types_of_people} types of people."
 x = "There are #{types_of_people} types of people."
 #defining binary as binary
-binary = "binary"
+binary = 'binary'
 #defining do_not as don't
 do_not = "don't"
 #defining variable y as Those who know and those who do not
@@ -26,7 +26,8 @@ joke_evaluation = "Isn't that joke so funny?! #{hilarious}"
 puts joke_evaluation
 
 #these variables are defined and then combined to make that sentence in line 32
-w = "This is the left side of..."
-e = "a string with a right side."
+w = 'This is the left side of...'
+e = 'a string with a right side.'
 
 puts w + e
+#the plus sign combines the strings
