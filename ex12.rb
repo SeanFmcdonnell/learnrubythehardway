@@ -11,8 +11,7 @@ number = another.to_i
 smaller = number / 100
 puts "A smaller number is #{smaller}."
 
-print "How much money do you have? I'm keeping 90%: "
-number2 = gets.chomp.to_f
-
-change = number2 * .10
-puts = "You can have this #{change}."
+puts "How much money do you have? I'm keeping 90%: "
+amount = gets.chomp.to_f
+ten_percent = (amount * 0.1).round(2)
+puts = "You can have 10% of #{amount} #{ten_percent}."
